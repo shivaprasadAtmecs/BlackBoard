@@ -1,5 +1,5 @@
 const offset = 0;
-const limit = 1;
+const limit = 100;
 
 async function blackBoardFullSync({ dataStore, client }) {
   console.log("Rates sync started");
